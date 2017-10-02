@@ -14,6 +14,17 @@
 		B61C85031F82D86100EB6253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61C85011F82D86100EB6253 /* LaunchScreen.storyboard */; };
 		B61C850E1F82D86100EB6253 /* ServiceCreatableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C850D1F82D86100EB6253 /* ServiceCreatableExampleTests.swift */; };
 		B61C85191F82D86100EB6253 /* ServiceCreatableExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85181F82D86100EB6253 /* ServiceCreatableExampleUITests.swift */; };
+		B61C85271F82D87500EB6253 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85261F82D87500EB6253 /* AppService.swift */; };
+		B61C85291F82D88000EB6253 /* GpsLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85281F82D88000EB6253 /* GpsLocationService.swift */; };
+		B61C852B1F82D88E00EB6253 /* CourierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C852A1F82D88E00EB6253 /* CourierService.swift */; };
+		B61C852D1F82D8CF00EB6253 /* CosmoServiceCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C852C1F82D8CF00EB6253 /* CosmoServiceCreatable.swift */; };
+		B61C852F1F82D9D100EB6253 /* ServiceCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C852E1F82D9D100EB6253 /* ServiceCreator.swift */; };
+		B61C85311F82DA3300EB6253 /* MockServiceCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85301F82DA3300EB6253 /* MockServiceCreator.swift */; };
+		B61C85331F82DC3500EB6253 /* MockCourierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85321F82DC3500EB6253 /* MockCourierService.swift */; };
+		B61C85351F82DDDB00EB6253 /* MockAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85341F82DDDB00EB6253 /* MockAppService.swift */; };
+		B61C853B1F82E74000EB6253 /* NetworkStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C853A1F82E74000EB6253 /* NetworkStatusService.swift */; };
+		B61C853D1F82E7AD00EB6253 /* UtilityServiceCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C853C1F82E7AD00EB6253 /* UtilityServiceCreatable.swift */; };
+		B61C853F1F82EA1000EB6253 /* ServiceCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C853E1F82EA1000EB6253 /* ServiceCreatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		B61C85141F82D86100EB6253 /* ServiceCreatableExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceCreatableExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61C85181F82D86100EB6253 /* ServiceCreatableExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCreatableExampleUITests.swift; sourceTree = "<group>"; };
 		B61C851A1F82D86100EB6253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B61C85261F82D87500EB6253 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
+		B61C85281F82D88000EB6253 /* GpsLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsLocationService.swift; sourceTree = "<group>"; };
+		B61C852A1F82D88E00EB6253 /* CourierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierService.swift; sourceTree = "<group>"; };
+		B61C852C1F82D8CF00EB6253 /* CosmoServiceCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmoServiceCreatable.swift; sourceTree = "<group>"; };
+		B61C852E1F82D9D100EB6253 /* ServiceCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCreator.swift; sourceTree = "<group>"; };
+		B61C85301F82DA3300EB6253 /* MockServiceCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServiceCreator.swift; sourceTree = "<group>"; };
+		B61C85321F82DC3500EB6253 /* MockCourierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCourierService.swift; sourceTree = "<group>"; };
+		B61C85341F82DDDB00EB6253 /* MockAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAppService.swift; sourceTree = "<group>"; };
+		B61C853A1F82E74000EB6253 /* NetworkStatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatusService.swift; sourceTree = "<group>"; };
+		B61C853C1F82E7AD00EB6253 /* UtilityServiceCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityServiceCreatable.swift; sourceTree = "<group>"; };
+		B61C853E1F82EA1000EB6253 /* ServiceCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCreatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,11 @@
 		B61C84F71F82D86100EB6253 /* ServiceCreatableExample */ = {
 			isa = PBXGroup;
 			children = (
+				B61C853E1F82EA1000EB6253 /* ServiceCreatable.swift */,
+				B61C852E1F82D9D100EB6253 /* ServiceCreator.swift */,
+				B61C85261F82D87500EB6253 /* AppService.swift */,
+				B61C85391F82E72100EB6253 /* UtilityServices */,
+				B61C85381F82E6CF00EB6253 /* CosmoServices */,
 				B61C84F81F82D86100EB6253 /* AppDelegate.swift */,
 				B61C84FA1F82D86100EB6253 /* ViewController.swift */,
 				B61C84FC1F82D86100EB6253 /* Main.storyboard */,
@@ -112,6 +139,9 @@
 			children = (
 				B61C850D1F82D86100EB6253 /* ServiceCreatableExampleTests.swift */,
 				B61C850F1F82D86100EB6253 /* Info.plist */,
+				B61C85301F82DA3300EB6253 /* MockServiceCreator.swift */,
+				B61C85321F82DC3500EB6253 /* MockCourierService.swift */,
+				B61C85341F82DDDB00EB6253 /* MockAppService.swift */,
 			);
 			path = ServiceCreatableExampleTests;
 			sourceTree = "<group>";
@@ -123,6 +153,25 @@
 				B61C851A1F82D86100EB6253 /* Info.plist */,
 			);
 			path = ServiceCreatableExampleUITests;
+			sourceTree = "<group>";
+		};
+		B61C85381F82E6CF00EB6253 /* CosmoServices */ = {
+			isa = PBXGroup;
+			children = (
+				B61C852A1F82D88E00EB6253 /* CourierService.swift */,
+				B61C852C1F82D8CF00EB6253 /* CosmoServiceCreatable.swift */,
+			);
+			path = CosmoServices;
+			sourceTree = "<group>";
+		};
+		B61C85391F82E72100EB6253 /* UtilityServices */ = {
+			isa = PBXGroup;
+			children = (
+				B61C85281F82D88000EB6253 /* GpsLocationService.swift */,
+				B61C853A1F82E74000EB6253 /* NetworkStatusService.swift */,
+				B61C853C1F82E7AD00EB6253 /* UtilityServiceCreatable.swift */,
+			);
+			path = UtilityServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61C853B1F82E74000EB6253 /* NetworkStatusService.swift in Sources */,
 				B61C84FB1F82D86100EB6253 /* ViewController.swift in Sources */,
+				B61C852D1F82D8CF00EB6253 /* CosmoServiceCreatable.swift in Sources */,
+				B61C853F1F82EA1000EB6253 /* ServiceCreatable.swift in Sources */,
+				B61C853D1F82E7AD00EB6253 /* UtilityServiceCreatable.swift in Sources */,
+				B61C852F1F82D9D100EB6253 /* ServiceCreator.swift in Sources */,
+				B61C85271F82D87500EB6253 /* AppService.swift in Sources */,
 				B61C84F91F82D86100EB6253 /* AppDelegate.swift in Sources */,
+				B61C85291F82D88000EB6253 /* GpsLocationService.swift in Sources */,
+				B61C852B1F82D88E00EB6253 /* CourierService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +325,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61C85331F82DC3500EB6253 /* MockCourierService.swift in Sources */,
+				B61C85311F82DA3300EB6253 /* MockServiceCreator.swift in Sources */,
 				B61C850E1F82D86100EB6253 /* ServiceCreatableExampleTests.swift in Sources */,
+				B61C85351F82DDDB00EB6253 /* MockAppService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
