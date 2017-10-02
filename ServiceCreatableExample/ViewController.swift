@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let serviceCreator: ServiceCreator = ServiceCreator()
-        var appService: AppService = AppService(serviceCreatable: serviceCreator)
+        //var appService: AppService = AppService(serviceCreatable: serviceCreator)
         
         // Do any additional setup after loading the view, typically from a nib.
     }

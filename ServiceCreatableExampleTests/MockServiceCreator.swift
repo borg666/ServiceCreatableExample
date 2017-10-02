@@ -1,17 +1,18 @@
 @testable import ServiceCreatableExample
 
-class MockServiceCreator: CosmoServiceCreatable, UtilityServiceCreatable {
+class MockServiceCreator: UtilityServiceCreatable, CosmoServiceCreatable { //ServiceCreatable {
 
-    func create() -> CourierService {
-        return MockCourierService()
+
+    func create(serviceCreatable: ServiceCreatable) -> GpsLocationService {
+        return GpsLocationService(serviceCreatable: serviceCreatable)
     }
 
-    func create() -> GpsLocationService {
-        return GpsLocationService(utilityServiceCreatable: MockServiceCreator())
+    func create(serviceCreatable: ServiceCreatable) -> NetworkStatusService {
+        return NetworkStatusService(serviceCreatable: serviceCreatable)
     }
 
-    func create() -> NetworkStatusService {
-        return NetworkStatusService()
+    func create(serviceCreatable: ServiceCreatable) -> CourierService {
+        return MockCourierService(serviceCreatable: serviceCreatable)
     }
 
 }

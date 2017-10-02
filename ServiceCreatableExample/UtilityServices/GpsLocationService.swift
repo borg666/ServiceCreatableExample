@@ -7,8 +7,8 @@ class GpsLocationService {
 
     }
 
-    init(utilityServiceCreatable: UtilityServiceCreatable) {
-        self.networkStatusService = utilityServiceCreatable.create()
+    init(serviceCreatable: ServiceCreatable) {
+        self.networkStatusService = serviceCreatable.create(serviceCreatable: serviceCreatable)
     }
 
 }

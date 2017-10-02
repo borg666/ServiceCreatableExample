@@ -1,22 +1,16 @@
-import Foundation
-
 protocol UtilityServiceCreatable: ServiceCreatable {
-
-    func create() -> GpsLocationService
-
-    func create() -> NetworkStatusService
 
 }
 
 
 extension UtilityServiceCreatable {
 
-    func create() -> GpsLocationService {
-        return GpsLocationService(utilityServiceCreatable: ServiceCreator())
+    func create(serviceCreatable: ServiceCreatable) -> GpsLocationService {
+        return GpsLocationService(serviceCreatable: serviceCreatable)
     }
 
-    func create() -> NetworkStatusService {
-        return NetworkStatusService()
+    func create(serviceCreatable: ServiceCreatable) -> NetworkStatusService {
+        return NetworkStatusService(serviceCreatable: serviceCreatable)
     }
 
 }

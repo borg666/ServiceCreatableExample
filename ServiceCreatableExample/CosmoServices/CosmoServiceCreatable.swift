@@ -1,14 +1,11 @@
 protocol CosmoServiceCreatable: ServiceCreatable {
 
-    func create() -> CourierService
-
 }
-
 
 extension CosmoServiceCreatable {
 
-    func create() -> CourierService {
-        return CourierService()
+    func create(serviceCreatable: ServiceCreatable) -> CourierService {
+        return CourierService(serviceCreatable: serviceCreatable)
     }
 
 }

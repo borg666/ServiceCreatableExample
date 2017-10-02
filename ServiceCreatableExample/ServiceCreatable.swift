@@ -1,9 +1,9 @@
 protocol ServiceCreatable {
 
-    func create() -> GpsLocationService
+    func create(serviceCreatable: ServiceCreatable) -> GpsLocationService
 
-    func create() -> NetworkStatusService
+    func create(serviceCreatable: ServiceCreatable) -> NetworkStatusService
 
-    func create() -> CourierService
+    func create(serviceCreatable: ServiceCreatable) -> CourierService
 
 }
