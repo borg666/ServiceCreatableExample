@@ -1,6 +1,0 @@
-class ServiceCreator: CosmoServiceCreatable, UtilityServiceCreatable {
-
-
-}
-
-

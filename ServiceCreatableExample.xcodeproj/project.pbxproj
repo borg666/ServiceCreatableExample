@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6033BC21F85566C00CB765D /* DaoCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6033BC11F85566C00CB765D /* DaoCreatable.swift */; };
+		B6033BC41F85569100CB765D /* CourierLocationDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6033BC31F85569100CB765D /* CourierLocationDao.swift */; };
+		B6033BC61F8556A000CB765D /* CourierDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6033BC51F8556A000CB765D /* CourierDao.swift */; };
+		B6033BC91F85573500CB765D /* UtilityCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6033BC81F85573500CB765D /* UtilityCreatable.swift */; };
 		B61C84F91F82D86100EB6253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C84F81F82D86100EB6253 /* AppDelegate.swift */; };
 		B61C84FB1F82D86100EB6253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C84FA1F82D86100EB6253 /* ViewController.swift */; };
 		B61C84FE1F82D86100EB6253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61C84FC1F82D86100EB6253 /* Main.storyboard */; };
@@ -15,16 +19,16 @@
 		B61C850E1F82D86100EB6253 /* ServiceCreatableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C850D1F82D86100EB6253 /* ServiceCreatableExampleTests.swift */; };
 		B61C85191F82D86100EB6253 /* ServiceCreatableExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85181F82D86100EB6253 /* ServiceCreatableExampleUITests.swift */; };
 		B61C85271F82D87500EB6253 /* AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85261F82D87500EB6253 /* AppService.swift */; };
-		B61C85291F82D88000EB6253 /* GpsLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85281F82D88000EB6253 /* GpsLocationService.swift */; };
-		B61C852B1F82D88E00EB6253 /* CourierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C852A1F82D88E00EB6253 /* CourierService.swift */; };
-		B61C852D1F82D8CF00EB6253 /* CosmoServiceCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C852C1F82D8CF00EB6253 /* CosmoServiceCreatable.swift */; };
-		B61C852F1F82D9D100EB6253 /* ServiceCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C852E1F82D9D100EB6253 /* ServiceCreator.swift */; };
-		B61C85311F82DA3300EB6253 /* MockServiceCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85301F82DA3300EB6253 /* MockServiceCreator.swift */; };
+		B61C85291F82D88000EB6253 /* GpsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85281F82D88000EB6253 /* GpsService.swift */; };
+		B61C852B1F82D88E00EB6253 /* CourierLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C852A1F82D88E00EB6253 /* CourierLocationService.swift */; };
+		B61C852F1F82D9D100EB6253 /* ComponentCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C852E1F82D9D100EB6253 /* ComponentCreator.swift */; };
+		B61C85311F82DA3300EB6253 /* MockComponentCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85301F82DA3300EB6253 /* MockComponentCreator.swift */; };
 		B61C85331F82DC3500EB6253 /* MockCourierService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85321F82DC3500EB6253 /* MockCourierService.swift */; };
 		B61C85351F82DDDB00EB6253 /* MockAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C85341F82DDDB00EB6253 /* MockAppService.swift */; };
 		B61C853B1F82E74000EB6253 /* NetworkStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C853A1F82E74000EB6253 /* NetworkStatusService.swift */; };
-		B61C853D1F82E7AD00EB6253 /* UtilityServiceCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C853C1F82E7AD00EB6253 /* UtilityServiceCreatable.swift */; };
-		B61C853F1F82EA1000EB6253 /* ServiceCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C853E1F82EA1000EB6253 /* ServiceCreatable.swift */; };
+		B61C853D1F82E7AD00EB6253 /* ServiceCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C853C1F82E7AD00EB6253 /* ServiceCreatable.swift */; };
+		B61C853F1F82EA1000EB6253 /* ComponentCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C853E1F82EA1000EB6253 /* ComponentCreatable.swift */; };
+		B6701D5B1F855B0F00F218FB /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6701D5A1F855B0F00F218FB /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6033BC11F85566C00CB765D /* DaoCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaoCreatable.swift; sourceTree = "<group>"; };
+		B6033BC31F85569100CB765D /* CourierLocationDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierLocationDao.swift; sourceTree = "<group>"; };
+		B6033BC51F8556A000CB765D /* CourierDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierDao.swift; sourceTree = "<group>"; };
+		B6033BC81F85573500CB765D /* UtilityCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityCreatable.swift; sourceTree = "<group>"; };
 		B61C84F51F82D86100EB6253 /* ServiceCreatableExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceCreatableExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61C84F81F82D86100EB6253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B61C84FA1F82D86100EB6253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,16 +67,16 @@
 		B61C85181F82D86100EB6253 /* ServiceCreatableExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCreatableExampleUITests.swift; sourceTree = "<group>"; };
 		B61C851A1F82D86100EB6253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B61C85261F82D87500EB6253 /* AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppService.swift; sourceTree = "<group>"; };
-		B61C85281F82D88000EB6253 /* GpsLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsLocationService.swift; sourceTree = "<group>"; };
-		B61C852A1F82D88E00EB6253 /* CourierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierService.swift; sourceTree = "<group>"; };
-		B61C852C1F82D8CF00EB6253 /* CosmoServiceCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmoServiceCreatable.swift; sourceTree = "<group>"; };
-		B61C852E1F82D9D100EB6253 /* ServiceCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCreator.swift; sourceTree = "<group>"; };
-		B61C85301F82DA3300EB6253 /* MockServiceCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServiceCreator.swift; sourceTree = "<group>"; };
+		B61C85281F82D88000EB6253 /* GpsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsService.swift; sourceTree = "<group>"; };
+		B61C852A1F82D88E00EB6253 /* CourierLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourierLocationService.swift; sourceTree = "<group>"; };
+		B61C852E1F82D9D100EB6253 /* ComponentCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentCreator.swift; sourceTree = "<group>"; };
+		B61C85301F82DA3300EB6253 /* MockComponentCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockComponentCreator.swift; sourceTree = "<group>"; };
 		B61C85321F82DC3500EB6253 /* MockCourierService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCourierService.swift; sourceTree = "<group>"; };
 		B61C85341F82DDDB00EB6253 /* MockAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAppService.swift; sourceTree = "<group>"; };
 		B61C853A1F82E74000EB6253 /* NetworkStatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatusService.swift; sourceTree = "<group>"; };
-		B61C853C1F82E7AD00EB6253 /* UtilityServiceCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityServiceCreatable.swift; sourceTree = "<group>"; };
-		B61C853E1F82EA1000EB6253 /* ServiceCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCreatable.swift; sourceTree = "<group>"; };
+		B61C853C1F82E7AD00EB6253 /* ServiceCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCreatable.swift; sourceTree = "<group>"; };
+		B61C853E1F82EA1000EB6253 /* ComponentCreatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentCreatable.swift; sourceTree = "<group>"; };
+		B6701D5A1F855B0F00F218FB /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6033BC01F85560900CB765D /* DaoComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B6033BCC1F85580800CB765D /* protocol */,
+				B6033BCD1F85581100CB765D /* dao */,
+			);
+			path = DaoComponents;
+			sourceTree = "<group>";
+		};
+		B6033BC71F85571700CB765D /* UtilityComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B6033BCE1F85583800CB765D /* protocol */,
+			);
+			path = UtilityComponents;
+			sourceTree = "<group>";
+		};
+		B6033BCA1F8557F400CB765D /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B61C853C1F82E7AD00EB6253 /* ServiceCreatable.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		B6033BCB1F8557FC00CB765D /* service */ = {
+			isa = PBXGroup;
+			children = (
+				B61C85261F82D87500EB6253 /* AppService.swift */,
+				B61C852A1F82D88E00EB6253 /* CourierLocationService.swift */,
+				B61C85281F82D88000EB6253 /* GpsService.swift */,
+				B61C853A1F82E74000EB6253 /* NetworkStatusService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		B6033BCC1F85580800CB765D /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B6033BC11F85566C00CB765D /* DaoCreatable.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		B6033BCD1F85581100CB765D /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				B6033BC31F85569100CB765D /* CourierLocationDao.swift */,
+				B6033BC51F8556A000CB765D /* CourierDao.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		B6033BCE1F85583800CB765D /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B6033BC81F85573500CB765D /* UtilityCreatable.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		B6033BCF1F85584300CB765D /* component */ = {
+			isa = PBXGroup;
+			children = (
+				B61C852E1F82D9D100EB6253 /* ComponentCreator.swift */,
+				B61C853E1F82EA1000EB6253 /* ComponentCreatable.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
 		B61C84EC1F82D86100EB6253 = {
 			isa = PBXGroup;
 			children = (
@@ -119,13 +197,12 @@
 		B61C84F71F82D86100EB6253 /* ServiceCreatableExample */ = {
 			isa = PBXGroup;
 			children = (
-				B61C853E1F82EA1000EB6253 /* ServiceCreatable.swift */,
-				B61C852E1F82D9D100EB6253 /* ServiceCreator.swift */,
-				B61C85261F82D87500EB6253 /* AppService.swift */,
-				B61C85391F82E72100EB6253 /* UtilityServices */,
-				B61C85381F82E6CF00EB6253 /* CosmoServices */,
 				B61C84F81F82D86100EB6253 /* AppDelegate.swift */,
 				B61C84FA1F82D86100EB6253 /* ViewController.swift */,
+				B6033BCF1F85584300CB765D /* component */,
+				B6033BC71F85571700CB765D /* UtilityComponents */,
+				B6033BC01F85560900CB765D /* DaoComponents */,
+				B61C85391F82E72100EB6253 /* ServiceComponents */,
 				B61C84FC1F82D86100EB6253 /* Main.storyboard */,
 				B61C84FF1F82D86100EB6253 /* Assets.xcassets */,
 				B61C85011F82D86100EB6253 /* LaunchScreen.storyboard */,
@@ -137,11 +214,9 @@
 		B61C850C1F82D86100EB6253 /* ServiceCreatableExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				B6701D5C1F855BD500F218FB /* mocks */,
 				B61C850D1F82D86100EB6253 /* ServiceCreatableExampleTests.swift */,
 				B61C850F1F82D86100EB6253 /* Info.plist */,
-				B61C85301F82DA3300EB6253 /* MockServiceCreator.swift */,
-				B61C85321F82DC3500EB6253 /* MockCourierService.swift */,
-				B61C85341F82DDDB00EB6253 /* MockAppService.swift */,
 			);
 			path = ServiceCreatableExampleTests;
 			sourceTree = "<group>";
@@ -155,23 +230,24 @@
 			path = ServiceCreatableExampleUITests;
 			sourceTree = "<group>";
 		};
-		B61C85381F82E6CF00EB6253 /* CosmoServices */ = {
+		B61C85391F82E72100EB6253 /* ServiceComponents */ = {
 			isa = PBXGroup;
 			children = (
-				B61C852A1F82D88E00EB6253 /* CourierService.swift */,
-				B61C852C1F82D8CF00EB6253 /* CosmoServiceCreatable.swift */,
+				B6701D5A1F855B0F00F218FB /* Service.swift */,
+				B6033BCA1F8557F400CB765D /* protocol */,
+				B6033BCB1F8557FC00CB765D /* service */,
 			);
-			path = CosmoServices;
+			path = ServiceComponents;
 			sourceTree = "<group>";
 		};
-		B61C85391F82E72100EB6253 /* UtilityServices */ = {
+		B6701D5C1F855BD500F218FB /* mocks */ = {
 			isa = PBXGroup;
 			children = (
-				B61C85281F82D88000EB6253 /* GpsLocationService.swift */,
-				B61C853A1F82E74000EB6253 /* NetworkStatusService.swift */,
-				B61C853C1F82E7AD00EB6253 /* UtilityServiceCreatable.swift */,
+				B61C85301F82DA3300EB6253 /* MockComponentCreator.swift */,
+				B61C85321F82DC3500EB6253 /* MockCourierService.swift */,
+				B61C85341F82DDDB00EB6253 /* MockAppService.swift */,
 			);
-			path = UtilityServices;
+			path = mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,16 +384,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6033BC61F8556A000CB765D /* CourierDao.swift in Sources */,
+				B6701D5B1F855B0F00F218FB /* Service.swift in Sources */,
 				B61C853B1F82E74000EB6253 /* NetworkStatusService.swift in Sources */,
 				B61C84FB1F82D86100EB6253 /* ViewController.swift in Sources */,
-				B61C852D1F82D8CF00EB6253 /* CosmoServiceCreatable.swift in Sources */,
-				B61C853F1F82EA1000EB6253 /* ServiceCreatable.swift in Sources */,
-				B61C853D1F82E7AD00EB6253 /* UtilityServiceCreatable.swift in Sources */,
-				B61C852F1F82D9D100EB6253 /* ServiceCreator.swift in Sources */,
+				B61C853F1F82EA1000EB6253 /* ComponentCreatable.swift in Sources */,
+				B6033BC91F85573500CB765D /* UtilityCreatable.swift in Sources */,
+				B61C853D1F82E7AD00EB6253 /* ServiceCreatable.swift in Sources */,
+				B61C852F1F82D9D100EB6253 /* ComponentCreator.swift in Sources */,
 				B61C85271F82D87500EB6253 /* AppService.swift in Sources */,
+				B6033BC21F85566C00CB765D /* DaoCreatable.swift in Sources */,
 				B61C84F91F82D86100EB6253 /* AppDelegate.swift in Sources */,
-				B61C85291F82D88000EB6253 /* GpsLocationService.swift in Sources */,
-				B61C852B1F82D88E00EB6253 /* CourierService.swift in Sources */,
+				B6033BC41F85569100CB765D /* CourierLocationDao.swift in Sources */,
+				B61C85291F82D88000EB6253 /* GpsService.swift in Sources */,
+				B61C852B1F82D88E00EB6253 /* CourierLocationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B61C85331F82DC3500EB6253 /* MockCourierService.swift in Sources */,
-				B61C85311F82DA3300EB6253 /* MockServiceCreator.swift in Sources */,
+				B61C85311F82DA3300EB6253 /* MockComponentCreator.swift in Sources */,
 				B61C850E1F82D86100EB6253 /* ServiceCreatableExampleTests.swift in Sources */,
 				B61C85351F82DDDB00EB6253 /* MockAppService.swift in Sources */,
 			);

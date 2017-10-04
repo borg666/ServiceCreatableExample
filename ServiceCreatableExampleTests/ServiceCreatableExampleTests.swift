@@ -12,17 +12,9 @@ class ServiceCreatableExampleTests: XCTestCase {
     }
     
     func testExample() {
-        let mockAppService: MockAppService = MockAppService(serviceCreatable: MockServiceCreator())
-        //let mockAppService: MockAppService = MockAppService()
+        let mockAppService: MockAppService = MockAppService(componentCreatable: MockComponentCreator())
         print("mockAppService.courierService.id", mockAppService.courierService.getId())
         XCTAssertEqual(mockAppService.courierService.getId(), 1)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+
 }

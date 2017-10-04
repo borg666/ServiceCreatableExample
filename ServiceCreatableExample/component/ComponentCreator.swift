@@ -1,0 +1,5 @@
+class ComponentCreator: ComponentCreatable {
+
+}
+
+
